@@ -4,7 +4,6 @@
     <title>Welcome Email</title>
     <style>
         body {
-            background: #c6ffe7;
             margin:0;
             padding: 0;
             width: 100%;
@@ -33,6 +32,7 @@
             justify-content: center;
             align-items: center;
             font-size: 25px;
+            border: 1px solid #123456;
         }
     </style>
 </head>
