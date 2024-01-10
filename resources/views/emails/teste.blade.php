@@ -2,45 +2,14 @@
 <html>
 <head>
     <title>Welcome Email</title>
-    <style>
-        body {
-            margin:0;
-            padding: 0;
-            width: 100%;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-        }
-        .container {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            width: 600px;
-            height: 100vh;
-            background: #123456;
-            color: #ffffff;
-            text-align: center;
-        }
-        .box {
-            width: 80%;
-            background: #c6ffe7;
-            color: #123456;
-            height: 100px;
-            border-radius: 5px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 25px;
-            border: 1px solid #123456;
-        }
-    </style>
 </head>
-<body>
-    <div class="container">
+<body style="width:100%;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;margin:0;">
+
+    <div style="text-align: center;width:100%;">
         <h1>Welcome to our platform!</h1>
+        <img src="https://gbmx.com.br/wp-content/themes/gbmx/img/logo_gbmx_footer.png" alt="GBMX">
         <p>Thank you for joining us.</p>
-        <div class="box">
+        <div style="margin:0 auto;text-align:center;width:500px;line-height:100px;border:1px solid black;">
             CAIXA TESTE
         </div>
     </div>
