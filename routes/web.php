@@ -15,3 +15,6 @@ use App\Http\Controllers\MailController;
 */
 
 $router->get('/', [MailController::class, 'mail']);
+Route::get("/page", function(){
+    return View::make("emails.teste");
+ });
